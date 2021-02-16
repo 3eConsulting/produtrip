@@ -1,0 +1,674 @@
+.test_div{
+	width: 100%;
+	height: 4px;
+	background-color: rgb(255, 140, 0);
+	z-index: 0;
+	position: fixed;
+	
+}
+
+/*---- DESTAQUE  ---------------------------------------*/
+
+.logotop {
+    width: 120px;
+	height: 120px;
+	position:absolute;
+	top: 10px;
+	left: 2%;
+	text-transform: uppercase;
+	z-index: 1;
+	color: #fff;
+}
+.logotop img {
+	width: 150px;
+}
+
+/*----MENU -----*/
+.menu {
+	position: absolute;
+	text-transform: uppercase;
+	padding-top: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	right: 2%;
+	height: 100px;
+	} 
+.texmenu{
+	color: #fff; 
+	display: flex;
+	margin-top: 60px;
+}
+.texmenu li {
+	color: #000; 
+	list-style: none;
+	font-size: 13px;
+	padding: 1px;
+}
+.texmenu li a {
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+} 
+/*-------------*/
+.circuloDestaquePosicao{
+	background-image: url("../img/circulo_destaque.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    width: 370px;
+	height: 370px;
+	position:absolute;
+	top: 170px;
+	right: 0%;
+	margin-left:-100px;
+}
+.tes_destaque {
+    width: 45%;
+	height: 120px;
+	position:absolute;
+	margin: auto;
+	top: 350px;
+	left: 4%;
+	text-transform: uppercase;
+	z-index: 1;
+	color: #fff;
+}
+
+.tes_destaque h1 {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	line-height: 1.1em;
+}
+
+.tes_destaque h2 {
+	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	line-height: 0.9em;
+}
+
+.RedesDestaques{
+    width: 270px;
+	height: 100px;
+	top: 600px;
+	left: 4%;
+	position:absolute;
+	padding: 5px;
+	align-items: center;
+}
+.iconeredesdes{
+	width: 80px;
+	height: 80px;
+	background-color: rgb(0, 0, 0);
+	float: left;
+	margin: 2px;
+}
+.iconeredesdes img{
+	width: 80px;
+	align-items: center;
+}
+.destaque{
+	width: 100%;
+	height: 700px;
+	margin: auto;
+	background-image: url("../img/destaque01.jpg");
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: 290%;
+	background-position: center;
+	background-color: #000;
+}
+
+/*-------------------------------------------*/
+/*------ PORTIFOLIO ----------------------*/
+
+.portifolio{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+	grid-auto-rows: 180px;
+	grid-gap: 0px;
+	background-color: #000;
+	color:#fff;
+}
+.gg-element img{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: rgb(0, 0, 0); /* IE */
+	opacity: 0,1;
+	object-fit: cover;
+	cursor: pointer;  
+	width: 100%;
+	height: 100%;
+	background:  rgb(0, 0, 0);
+	transition: ease 0.8s;
+	overflow: hidden;
+align-items: center;
+
+}
+.gg-element img:hover{
+	filter: grayscale(0%);
+	opacity: 100;
+	transition: ease 0.1s;
+}
+
+.imagem01 {
+	background-image: url("../img/jobs/img_tit.jpg");
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+
+.bordaport {
+	height: 112px;
+	margin: 18px;
+	padding-left: 18px;
+	border: 1px solid #fff800;
+	flex-wrap: wrap;
+	flex-direction:column;
+	padding: auto;
+	padding-top: 33px;
+}
+
+.bordaport h1{
+	text-transform: uppercase;
+	color: #fff800;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 45px;
+}
+
+.bordaport h2{
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+/*--- FIM PROTIFOLIO ------*/
+
+  .barraFimPrortifolio{
+	width: 100%;
+	background-color: #000;
+}
+
+.barraFimPrortifolio h1{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;	
+}
+.fp_es{
+	width: 20%;
+	height: 150px;
+	/* max-width: 1500px; */
+	float: left;
+	background-image: url("../img/barra_es.jpg");
+	background-repeat: no-repeat;
+	background-size: 190px;
+}
+.fp_me{
+	width: 60%;
+	float: left;
+	text-align:center;
+	margin:auto;
+	padding-top: 70px;
+}
+.fp_di{
+	width: 20%;
+	height: 150px;
+	/* max-width: 1500px; */
+	display: flex;
+	background-image: url("../img/barra_di.jpg");
+	background-repeat: no-repeat;
+	background-size: 190px;
+	background-position:right;
+}
+
+/*-------------------------------------------*/
+/*------ APP ----------------------*/
+.BaseBoxAPP{
+	width: 100%;
+	height: 600px;
+	position: relative;
+	overflow:hidden;
+	background-image: url("../img/fundo_app.jpg");
+	background-color: #ffffff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #131313;
+}
+
+.conteinerapp {
+	position: relative;
+    margin-left: auto;
+    margin-right: auto; 
+	max-width: 800px;
+	height: 600px;
+	align-items: center;
+	display: flex;
+}
+
+.tes_app {
+	position: absolute;
+	z-index: 1;
+	max-width: 780px;
+	margin-left: 42%;
+	margin-right: 10px;
+	color: #fff;
+	flex-wrap: wrap;
+	align-items: center;
+	display: flex;
+}
+
+.tes_app h1{
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-left: 40px;
+}
+
+.tes_app h2{
+	width: 100%;
+	color: #faf203;
+	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	padding-left: 35px;
+	padding-bottom: 20px;
+}
+
+.txtApp {
+	padding-left: 40px;
+	top: 120px;
+	font-size: 15px;
+}
+
+.txtCTA {
+	margin-top: 30px;
+	padding-left: 40px;
+	padding-right: 70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	top: 120px;
+	text-transform: uppercase;
+	opacity: 0,5;
+	font-size: 15px;
+	color: #faf203;
+	background-image: url("../img/preto50por.png");
+}
+/*-------------------------------------------*/
+/*------ VANTAGENS ----------------------*/
+.boxVantagens{
+	width: 100%;
+	background-image: url("../img/bg_filete_vantagens.jpg");
+	background-repeat:repeat-x;
+	padding-bottom: 80px;
+	padding-top: 80px;
+	background-size: auto;
+	background-size: 30px;
+}
+
+.boxVantagens h1{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	line-height: 0.9em;
+}
+
+.boxVantagens p{
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: auto;
+	overflow: auto;
+	padding: 20px;
+	display: flex;
+  }
+
+.flex h1 {
+	color: #000;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+  }
+
+  .flex p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	flex-wrap: wrap;
+	display: flex;
+	margin-top: -10px;
+  }
+
+  .flex > div {
+	flex: 1 1 200px;
+	margin: 10px;
+	flex-wrap: wrap;
+	justify-items: center;
+	align-items: center;
+  }
+  .flex div img {
+	width: 55%;
+	padding-top: 55px;
+	padding-bottom: 15px;
+	flex-wrap: wrap;
+	display: flex;
+	margin: auto;
+}
+/*-------------------------------------------*/
+/*------ NOSSOS CLIENTES ----------------------*/
+.BaseBoxClientes{
+	width: 90%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	overflow:hidden;
+	position: relative;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: center;
+	align-items: center;
+}
+
+.BaseBoxClientes h1{
+	color: rgb(118, 118, 118);
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	width: 100%;
+}
+
+.logos{ 
+	position:relative;
+    width: 120px;
+	float: left;
+	margin: 5px;
+}
+
+.imglogos{
+    width: 100%;
+}
+
+.imglogos div{
+   margin-left: -50px;
+}
+
+.barraFimcliente{
+	width: 100%;
+	background-color: #fff;
+}
+
+.barraFimcliente h1{
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;	
+}
+.cf_es{
+	width: 6%;
+	height: 120px;
+	float: left;
+}
+.cf_me{
+	width: 66%;
+	height: 120px;
+	float: left;
+	background-image: url("../img/barra_clientes.jpg");
+	background-size: 120px;
+	background-position:right;
+	margin-top: 20px;
+	background-color: violet;
+}
+.cf_di{
+	width: 20%;
+	float: left;
+	padding-top: 10px;
+}
+
+/*-------------------------------------------*/
+/*------ NOSSAS HISTORIA ----------------------*/
+.BoxNossaHistoria{
+	position: relative;
+	overflow: auto;
+	width: 100%;
+	background-image: url("../img/bg_filete_vantagens.jpg");
+	background-repeat:repeat-x;
+	padding-bottom: 90px;
+	padding-top: 50px;
+	background-size: auto;
+	background-size: 30px;
+}
+
+.flexHistoria {
+	display: flex;
+	width: 100%;
+	margin:auto;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	flex-wrap: wrap;	
+	font-size: 15px;
+}
+  
+.flexHistoria > div {
+	flex: 1 1 200px;
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.flexHistoria div img {
+	width: 70%;
+}
+
+.BoxNossaHistoria div li{
+	list-style: none;
+	background: #000;
+	color: #ccc;
+	padding: 9px 14px 9px 14px ;
+	font-size: 19px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+
+.txtHistoria {
+	letter-spacing:0.6px;
+}
+
+.txtHistoria h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	width: 100%;
+	font-size: 22px;
+	color: #000;
+	text-align: left;
+	padding-top: 50px;
+	margin: 0px;
+}
+
+.txtHistoria h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 70px;
+	width: 100%;
+	color: #000;
+	margin-top: -5px;
+	margin-bottom: 30px;
+}
+
+.txtHistoria h3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	width: 100%;
+	color: #000;
+	margin-top: -5px;
+	padding-bottom: 40px;
+}
+/*-------------------------------------------*/
+ /* ----- CONTATOS --------------------*/
+
+ .meio01{
+	width: 70%;
+	height: 500px;
+  	background-color: #000000;
+	float: left;
+	background-image: url("../img/img_contato.jpg");
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	background-position: right 0px;
+	background-position-y:center ;
+	justify-content: right;
+	align-items: inherit;
+}
+
+.meio02{
+	width: 30%;
+	height: 500px;
+  	background-color: #000000;
+	float: left;
+	color: white;
+}
+
+.contatodados{
+	width: 500px;
+	height: 500px;
+	float:right;
+	padding-left: 120px;
+	color: white;
+	font-size: 30px; 
+	display: flex;
+	flex-wrap: wrap;	
+	align-items: center;
+}
+
+.contatodados h1{
+	font-size: 28px;
+	width: 100%;
+	letter-spacing:0.2px;
+	padding-top: 80px;
+	line-height: 0.9em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 10;
+}
+
+.contatodados h2{
+	font-size: 22px;
+	width: 100%;
+	letter-spacing:0.2px;
+	margin-top: -20px;
+	line-height: 0.9em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+}
+
+
+.contatodados a{
+	color: white;
+}
+
+.redes02{
+	width: 350px;
+	height: 100px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+
+}
+
+.redes02 h1{
+	padding-top: 22px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+}
+
+.redes02 img{
+	width: 50px;
+	padding-right: 5px;
+	padding-top: 10px;
+}
+
+.powerby{
+	text-transform: uppercase;
+	width: 350px;
+	height: 25px;	
+	font-size: 10px;
+	display: flex;
+	flex-wrap: wrap;	
+	align-items: center;
+	color: white;
+	padding-bottom: 45px;
+}
+
+.powerby img{
+	width: 42px;
+	padding-right: 20px;
+	padding-top: 0px;
+	float: left;
+}
+
+.powerby a{
+	color: white;
+}
+
+.powerby p{
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 10px;
+	float: left;
+	padding-top: 10px;
+}
+
+.end{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	letter-spacing:0.8px;
+}
+
+  /* ----- MAPA GOOGLE --------------------*/
+  .map-container{
+	padding-bottom:0px;
+	position:relative;
+	height:500px;
+	}
+
+	.map-container iframe{
+	left:0;
+	top:0;
+	height:500px;
+	width:100%;
+	position:absolute;
+}
