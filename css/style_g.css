@@ -1,54 +1,18 @@
-.test_div {
-	width: 100%;
-	height: 4px;
-	background-color: rgb(61, 235, 3);
-	z-index: 0;
-	position: fixed;
-}
-
-/*---- DESTAQUE  ---------------------------------------*/
-
+/** DESTAQUE **/
 .logotop {
-	width: 120px;
-	height: 120px;
+	width: 10vw;
 	position: absolute;
 	top: 10px;
-	left: 5%;
+	left: 5vw;
 	text-transform: uppercase;
 	z-index: 1;
 	color: #fff;
 }
+
 .logotop img {
-	width: 150px;
+	width: inherit;
 }
 
-/*----MENU -----*/
-.menu {
-	position: absolute;
-	text-transform: uppercase;
-	padding-top: 20px;
-	font-family: "Raleway", sans-serif;
-	font-weight: 800;
-	right: 5%;
-	height: 100px;
-}
-.texmenu {
-	color: #fff;
-	display: flex;
-	margin-top: 60px;
-}
-.texmenu li {
-	color: #000;
-	list-style: none;
-	font-size: 17px;
-	padding: 1px;
-}
-.texmenu li a {
-	padding: 14px;
-	text-decoration: none;
-	color: #fff;
-}
-/*-------------*/
 .circuloDestaquePosicao {
 	background-image: url("../img/circulo_destaque.png");
 	background-size: 100%;
@@ -56,16 +20,16 @@
 	width: 520px;
 	height: 520px;
 	position: absolute;
-	top: 220px;
-	left: 54.5%;
+	top: 20%;
+	left: 48%;
 }
 .tes_destaque {
-	width: 30%;
-	height: 120px;
+	width: 27.5vw;
+	height: 25vh;
 	position: absolute;
 	margin: auto;
-	top: 350px;
-	left: 8%;
+	top: 50vh;
+	left: 5vw;
 	text-transform: uppercase;
 	z-index: 1;
 	color: #fff;
@@ -86,10 +50,10 @@
 }
 
 .RedesDestaques {
-	width: 270px;
-	height: 100px;
-	top: 650px;
-	left: 7.5%;
+	width: 13vw;
+	height: 12vh;
+	top: 85vh;
+	left: 5vw;
 	position: absolute;
 	padding: 5px;
 	align-items: center;
@@ -104,9 +68,9 @@
 }
 
 .iconeredesdes {
-	width: 30px;
-	height: 30px;
-	padding: 15px;
+	width: 2vw;
+	height: 2vw;
+	padding: 1vw;
 	background-color: rgb(0, 0, 0);
 	border-radius: 15px;
 	float: left;
@@ -118,17 +82,37 @@
 }
 .destaque {
 	width: 100%;
-	height: 800px;
 	margin: auto;
+	height: 100vh;
 	background-image: url("../img/destaque01.jpg");
 	background-color: #ffffff;
 	background-repeat: no-repeat;
-	background-size: 180%;
+	background-size: cover;
 	background-position: center;
 	background-color: #000;
 }
 
-/*-------------------------------------------*/
+/** MENU **/
+.menu {
+	position: absolute;
+	text-transform: uppercase;
+	padding-top: 20px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	right: 5%;
+	height: 100px;
+}
+.texmenu {
+	color: #fff;
+	display: flex;
+	margin-top: 60px;
+}
+
+.texmenu li a {
+	padding: 14px;
+	color: #fff;
+}
+
 /*------ PORTIFOLIO ----------------------*/
 
 .portifolio {
