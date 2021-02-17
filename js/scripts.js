@@ -107,7 +107,7 @@ $(window).scroll(function() {
   var scroll = $(window).scrollTop();
 
   if (scroll > 0) {
-      $('.menu','.texmenu').addClass('.menu-auxiliar);
+      $('.menu','.texmenu').addClass('.menu-auxiliar');
       $('.texmenu').addClass('.texmenuvai');
   } else {
       $('.menu').removeClass('.menu-auxiliar');

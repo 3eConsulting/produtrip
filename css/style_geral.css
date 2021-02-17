@@ -1,59 +1,55 @@
-
-body{
-	font-family: 'Raleway', sans-serif;
+body {
+	font-family: "Raleway", sans-serif;
 	font-weight: 200;
+	overflow-x: hidden;
 }
 
-
 /*------ NOSSOS SERVIÇOS PDV ----------------------*/
-.BaseBoxPDV{
+.BaseBoxPDV {
 	padding-top: 60px;
 	width: 100%;
-	overflow:hidden;
+	overflow: hidden;
 	position: relative;
 	margin: 0 auto;
 	background-color: #fff;
 	background-image: url("../img/bg_servicos.jpg");
-	background-repeat:repeat-x;
+	background-repeat: repeat-x;
 	background-position: bottom;
 	align-items: center;
 }
 
-.BaseBoxPDV h1{
+.BaseBoxPDV h1 {
 	color: rgb(0, 0, 0);
 	font-size: 30px;
 	text-align: center;
 	padding-bottom: 10px;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-weight: 100;
-
-
 }
 
 .conteinerPDV {
 	position: relative;
-    margin-left: auto;
-    margin-right: auto; 
- 	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
 	height: 770px;
 	background-color: #faf203;
 	background-image: url("../img/img_servisos_br.jpg");
 	background-size: 800px;
 	background-repeat: no-repeat;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 	margin-bottom: 20px;
-
 }
 
 .ser_box01 {
 	position: absolute;
 	z-index: 1;
-    width: 320px;
-    height: 350px;
-    left: 243px;
-    top: 0px;
+	width: 320px;
+	height: 350px;
+	left: 243px;
+	top: 0px;
 	color: #000;
 	flex-wrap: wrap;
 	align-items: center;
@@ -62,10 +58,10 @@ body{
 .ser_box02 {
 	position: absolute;
 	z-index: 1;
-    width: 320px;
-    height: 350px;
-    left: 485px;
-    top: 435px;
+	width: 320px;
+	height: 350px;
+	left: 485px;
+	top: 435px;
 	color: #000;
 	flex-wrap: wrap;
 	align-items: center;
@@ -74,8 +70,8 @@ body{
 .ser_box03 {
 	position: absolute;
 	z-index: 1;
-    width: 320px;
-    height: 350px;
+	width: 320px;
+	height: 350px;
 	top: 440px;
 	color: #000;
 	flex-wrap: wrap;
@@ -84,62 +80,57 @@ body{
 
 .ser_box_tit {
 	position: absolute;
-    z-index: 1;
-    width: 313px;
-    height: 42px;
-    top: 20px;
-	border-width: 2px;
-	font-size: 25px;
-	text-transform: uppercase;	
-	display: flex;
-	font-family: 'Raleway', sans-serif;
+	z-index: 1;
+	width: 100%;
+	top: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
 	font-weight: 700;
+	text-align: center;
 }
 
 .ser_box01cont {
-    position: absolute;
-    z-index: 0;
-    width: 272px;
-    height: 320px;
-    color: #fff;
-    background-image: url(../img/ser_abre_box1.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 91px;
-    padding-left: 48px;
-
-
+	position: absolute;
+	z-index: 0;
+	width: 272px;
+	height: 320px;
+	color: #fff;
+	background-image: url(../img/ser_abre_box1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 91px;
+	padding-left: 48px;
 }
 .ser_box02cont {
-    position: absolute;
-    z-index: 0;
-    width: 269px;
-    height: 320px;
-    color: #fff;
-    border-width: 2px;
-    background-image: url(../img/ser_abre_box2.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 121px;
-    padding-left: 61px;
+	position: absolute;
+	z-index: 0;
+	width: 269px;
+	height: 320px;
+	color: #fff;
+	border-width: 2px;
+	background-image: url(../img/ser_abre_box2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 121px;
+	padding-left: 61px;
 }
 
 .ser_box03cont {
 	position: absolute;
 	z-index: 0;
-    width: 272px;
-    height: 320px;
+	width: 272px;
+	height: 320px;
 	color: #fff;
 	border-width: 2px;
 	background-image: url("../img/ser_abre_box3.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
-    padding-top: 91px;
-    padding-left: 48px;
-
+	padding-top: 91px;
+	padding-left: 48px;
 }
 .faq {
 	display: none; /* coloca todos como invisiveis inicialmente */
 }
-   /* //////////////////////////////////////////////// */
+/* //////////////////////////////////////////////// */
 /*-------------------------------------------*/
