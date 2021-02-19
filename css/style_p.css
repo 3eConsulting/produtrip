@@ -1,4 +1,4 @@
-.test_div{
+.test_div {
 	width: 100%;
 	height: 4px;
 	background-color: rgb(255, 0, 0);
@@ -9,9 +9,9 @@
 /*---- DESTAQUE  ---------------------------------------*/
 
 .logotop {
-    width: 120px;
+	width: 120px;
 	height: 120px;
-	position:absolute;
+	position: absolute;
 	top: 20px;
 	left: 5%;
 	text-transform: uppercase;
@@ -31,14 +31,13 @@
 	font-weight: 800;
 	right: 5%;
 	height: 100px;
-
-} 
-.texmenu{
-	color: #fff; 
+}
+.texmenu {
+	color: #fff;
 	margin-top: 30px;
 }
 .texmenu li {
-	color: #000; 
+	color: #000;
 	list-style: none;
 	font-size: 16px;
 	padding: 5px;
@@ -47,11 +46,12 @@
 	padding: 4px;
 	text-decoration: none;
 	color: #fff;
-} 
-/*-------------*/
-.circuloDestaquePosicao{
-	display: none; 
 }
+/*-------------*/
+.circuloDestaquePosicao {
+	display: none;
+}
+/*
 .tes_destaque {
     width: 90%;
 	height: 120px;
@@ -78,70 +78,67 @@
 	line-height: 0.9em;
 }
 
-.RedesDestaques{
-    width: 270px;
+.RedesDestaques {
+	width: 270px;
 	height: 100px;
 	top: 525px;
 	left: 3%;
-	position:absolute;
+	position: absolute;
 	padding: 5px;
 	align-items: center;
 }
-.iconeredesdes{
+.iconeredesdes {
 	width: 60px;
 	height: 60px;
 	background-color: rgb(0, 0, 0);
 	float: left;
 	margin: 2px;
-	overflow: hidden; 
-
+	overflow: hidden;
 }
-.iconeredesdes img{
+.iconeredesdes img {
 	width: 80px;
-	margin: 0 auto;	
-	margin-top: -12px; /* metade da altura */
-	margin-left: -10px; /* metade da altura */
+	margin: 0 auto;
+	margin-top: -12px;
+	margin-left: -10px;
 }
-.destaque{
+.destaque {
 	width: 100%;
 	height: 600px;
-	background-image: url("../img/destaque01.jpg");
+	background-image: url('../img/destaque01.jpg');
 	background-color: #ffffff;
 	background-repeat: no-repeat;
 	background-size: 410%;
 	background-position: 55% center;
 	background-color: #000;
-}
+}*/
 
 /*-------------------------------------------*/
 
 /*------ PORTIFOLIO ----------------------*/
 
-.portifolio{
+.portifolio {
 	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	grid-auto-rows: 100px;
 	grid-gap: 0px;
 	background-color: #000;
-	color:#fff;
+	color: #fff;
 }
-.gg-element img{
-
+.gg-element img {
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
 	transition: ease 0.8s;
 	overflow: hidden;
 	align-items: center;
-
 }
 
-.example-image-link{
+.example-image-link {
 	pointer-events: none;
 }
 
 .imagem01 {
-	background-image: url("../img/jobs/img_tit.jpg");
+	background-image: url('../img/jobs/img_tit.jpg');
 	background-repeat: no-repeat;
 	background-size: 120%;
 	background-position: center;
@@ -155,13 +152,12 @@
 	margin: 11px;
 	border: 1px solid #fff800;
 	flex-wrap: wrap;
-	flex-direction:column;
+	flex-direction: column;
 	padding: auto;
 	padding-top: 18px;
 }
 
-
-.bordaport h1{
+.bordaport h1 {
 	padding-left: 14px;
 	text-transform: uppercase;
 	color: #fff800;
@@ -170,8 +166,7 @@
 	font-size: 25px;
 }
 
-
-.bordaport h2{
+.bordaport h2 {
 	padding-left: 14px;
 	text-transform: uppercase;
 	color: #fff;
@@ -181,27 +176,27 @@
 }
 /*--- FIM PROTIFOLIO ------*/
 
-.barraFimPrortifolio{
+.barraFimPrortifolio {
 	width: 100%;
 	background-color: #000;
 	overflow: hidden;
 }
 
-.barraFimPrortifolio h1{
+.barraFimPrortifolio h1 {
 	height: inherit;
 	text-transform: uppercase;
 }
-.fp_es{
+.fp_es {
 	width: 15%;
 	height: 100px;
 	float: left;
-	background-image: url("../img/barra_es.jpg");
+	background-image: url('../img/barra_es.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
 	overflow: hidden;
 }
-.fp_me{
+.fp_me {
 	width: 70%;
 	height: inherit;
 	margin-top: 20px;
@@ -214,11 +209,11 @@
 	color: #fff;
 	text-align: center;
 }
-.fp_di{
+.fp_di {
 	width: 15%;
 	height: 100px;
 
-	background-image: url("../img/barra_di.jpg");
+	background-image: url('../img/barra_di.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
@@ -226,15 +221,14 @@
 	color: #fff;
 }
 
-
 /*-------------------------------------------*/
 /*------ APP ----------------------*/
-.BaseBoxAPP{
+.BaseBoxAPP {
 	width: 100%;
 	height: 450px;
 	position: relative;
-	overflow:hidden;
-	background-image: url("../img/fundo_app.jpg");
+	overflow: hidden;
+	background-image: url('../img/fundo_app.jpg');
 	background-color: #ffffff;
 	background-repeat: no-repeat;
 	background-color: #131313;
@@ -246,8 +240,8 @@
 
 .conteinerapp {
 	position: relative;
-    margin-left: auto;
-    margin-right: auto; 
+	margin-left: auto;
+	margin-right: auto;
 	width: 100%;
 	height: 450px;
 	align-items: center;
@@ -266,7 +260,7 @@
 	display: flex;
 }
 
-.tes_app h1{
+.tes_app h1 {
 	width: 100%;
 	color: #fff;
 	font-size: 12px;
@@ -276,7 +270,7 @@
 	padding-left: 25px;
 }
 
-.tes_app h2{
+.tes_app h2 {
 	width: 100%;
 	color: #faf203;
 	font-size: 21px;
@@ -300,25 +294,24 @@
 	padding-bottom: 10px;
 	top: 120px;
 	text-transform: uppercase;
-	opacity: 0,5;
+	opacity: 0, 5;
 	font-size: 12px;
 	color: #faf203;
-	background-image: url("../img/preto50por.png");
-
+	background-image: url('../img/preto50por.png');
 }
 /*-------------------------------------------*/
 /*------ VANTAGENS ----------------------*/
-.boxVantagens{
+.boxVantagens {
 	width: 100%;
-	background-image: url("../img/bg_filete_vantagens.jpg");
-	background-repeat:repeat-x;
+	background-image: url('../img/bg_filete_vantagens.jpg');
+	background-repeat: repeat-x;
 	padding-bottom: 80px;
 	padding-top: 80px;
 	background-size: auto;
 	background-size: 30px;
 }
 
-.boxVantagens h1{
+.boxVantagens h1 {
 	color: #fff;
 	font-size: 30px;
 	text-align: center;
@@ -328,7 +321,7 @@
 	line-height: 0.9em;
 }
 
-.boxVantagens p{
+.boxVantagens p {
 	color: #000;
 	font-size: 18px;
 	text-align: center;
@@ -343,31 +336,31 @@
 	overflow: auto;
 	padding: 20px;
 	display: flex;
-  }
+}
 
 .flex h1 {
 	color: #000;
 	font-size: 30px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-  }
+}
 
-  .flex p {
+.flex p {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	flex-wrap: wrap;
 	display: flex;
 	margin-top: -10px;
-  }
+}
 
-  .flex > div {
+.flex > div {
 	flex: 1 1 200px;
 	margin: 10px;
 	flex-wrap: wrap;
 	justify-items: center;
 	align-items: center;
-  }
-  .flex div img {
+}
+.flex div img {
 	width: 55%;
 	padding-top: 55px;
 	padding-bottom: 15px;
@@ -377,20 +370,20 @@
 }
 /*-------------------------------------------*/
 /*------ NOSSOS CLIENTES ----------------------*/
-.BaseBoxClientes{
+.BaseBoxClientes {
 	width: 90%;
 	padding-top: 60px;
 	padding-bottom: 50px;
-	overflow:hidden;
+	overflow: hidden;
 	position: relative;
 	margin: 0 auto;
 	display: flex;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
 
-.BaseBoxClientes h1{
+.BaseBoxClientes h1 {
 	color: rgb(118, 118, 118);
 	font-size: 30px;
 	text-align: center;
@@ -400,50 +393,50 @@
 	width: 100%;
 }
 
-.logos{ 
-	position:relative;
-    width: 100px;
+.logos {
+	position: relative;
+	width: 100px;
 	float: left;
 	margin: 2px;
 }
 
-.imglogos{
-    width: 100%;
+.imglogos {
+	width: 100%;
 }
 
-.imglogos div{
-   margin-left: -50px;
+.imglogos div {
+	margin-left: -50px;
 }
 
-.barraFimcliente{
+.barraFimcliente {
 	width: 100%;
 	background-color: #fff;
 }
 
-.barraFimcliente h1{
+.barraFimcliente h1 {
 	color: #000;
 	font-size: 15px;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
-.cf_es{
+.cf_es {
 	width: 15%;
 	height: 100px;
 	float: left;
 }
-.cf_me{
+.cf_me {
 	width: 35%;
 	height: 100px;
 	float: left;
-	background-image: url("../img/barra_clientes.jpg");
+	background-image: url('../img/barra_clientes.jpg');
 	background-size: 110px;
-	background-position:right;
+	background-position: right;
 	margin-top: 20px;
 	background-color: violet;
 }
-.cf_di{
+.cf_di {
 	width: 40%;
 	float: left;
 	padding-top: 10px;
@@ -452,12 +445,12 @@
 /*-------------------------------------------*/
 /*------ NOSSAS HISTORIA ----------------------*/
 
-.BoxNossaHistoria{
+.BoxNossaHistoria {
 	position: relative;
 	overflow: auto;
 	width: 100%;
-	background-image: url("../img/bg_filete_vantagens.jpg");
-	background-repeat:repeat-x;
+	background-image: url('../img/bg_filete_vantagens.jpg');
+	background-repeat: repeat-x;
 	padding-bottom: 30px;
 	padding-top: 20px;
 	background-size: auto;
@@ -467,17 +460,17 @@
 .flexHistoria {
 	display: flex;
 	width: 100%;
-	margin:auto;
+	margin: auto;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	flex-wrap: wrap;
 }
-  
+
 .flexHistoria > div {
 	flex: 1 1 200px;
 	margin: 10px;
 	display: flex;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	padding-top: 20px;
@@ -487,10 +480,10 @@
 	width: 50%;
 }
 
-.BoxNossaHistoria div li{
+.BoxNossaHistoria div li {
 	background: #000;
 	color: #fff;
-	padding: 8px 12px 8px 12px ;
+	padding: 8px 12px 8px 12px;
 	font-size: 12px;
 	margin-left: 4px;
 	margin-top: 3px;
@@ -499,28 +492,28 @@
 }
 
 .txtHistoria {
-	letter-spacing:0.6px;
+	letter-spacing: 0.6px;
 	justify-content: center;
 	align-items: center;
 	justify-items: center;
 	text-align: center;
 }
 
-.txtHistoria h1{
+.txtHistoria h1 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: 25px;
 	color: #000;
 }
 
-.txtHistoria h2{
+.txtHistoria h2 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	font-size: 75px;
 	color: #000;
 }
 
-.txtHistoria h3{
+.txtHistoria h3 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
@@ -529,78 +522,69 @@
 	margin-top: -5px;
 }
 /*-------------------------------------------*/
- /* ----- CONTATOS --------------------*/
+/* ----- CONTATOS --------------------*/
 
-  .meio01{
+.meio01 {
 	width: 100%;
 	height: 500px;
-  	background-color: #000000;
+	background-color: #000000;
 	float: left;
-	background-image: url("../img/img_contato.jpg");
+	background-image: url('../img/img_contato.jpg');
 	background-repeat: no-repeat;
 	background-size: 1500px;
 	background-position: right 0px;
-	background-position-y:center ;
+	background-position-y: center;
 	justify-content: right;
 	align-items: inherit;
-	
 }
 
-
-
-
-#map-container-google-1{
-	display: none; 
+#map-container-google-1 {
+	display: none;
 }
 
-
-
-.contatodados{
+.contatodados {
 	width: 100%px;
 	height: 500px;
-	float:right;
+	float: right;
 	padding-left: 120px;
 	color: white;
 	display: flex;
-	flex-wrap: wrap;	
-	align-items: center;	
-
+	flex-wrap: wrap;
+	align-items: center;
 }
 
-.contatodados h1{
+.contatodados h1 {
 	font-size: 20px;
 	width: 100%;
-	letter-spacing:0.2px;
+	letter-spacing: 0.2px;
 	padding-top: 80px;
 	line-height: 0.9em;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 10;
 }
 
-.contatodados h2{
+.contatodados h2 {
 	font-size: 20px;
 	width: 100%;
-	letter-spacing:0.2px;
+	letter-spacing: 0.2px;
 	margin-top: -20px;
 	line-height: 0.9em;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 }
 
-
-.contatodados a{
+.contatodados a {
 	color: white;
-
 }
 
-.redes02{
+.redes02 {
 	width: 350px;
 	height: 100px;
 	padding-top: 10px;
 	padding-bottom: 40px;
 }
 
-.redes02 h1{
+.redes02 h1 {
 	padding-top: 22px;
 	padding-bottom: 5px;
 	font-size: 15px;
@@ -608,36 +592,36 @@
 	font-weight: 800;
 }
 
-.redes02 img{
+.redes02 img {
 	width: 50px;
 	padding-right: 5px;
 	padding-top: 10px;
 }
 
-.powerby{
+.powerby {
 	text-transform: uppercase;
 	width: 350px;
-	height: 25px;	
+	height: 25px;
 	font-size: 10px;
 	display: flex;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
 	align-items: center;
 	color: white;
 	padding-bottom: 45px;
 }
 
-.powerby img{
+.powerby img {
 	width: 42px;
 	padding-right: 20px;
 	padding-top: 0px;
 	float: left;
 }
 
-.powerby a{
+.powerby a {
 	color: white;
 }
 
-.powerby p{
+.powerby p {
 	color: white;
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
@@ -647,9 +631,9 @@
 	padding-top: 10px;
 }
 
-.end{
+.end {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	letter-spacing:0.8px;
+	letter-spacing: 0.8px;
 }

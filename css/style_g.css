@@ -1,5 +1,5 @@
 /** DESTAQUE **/
-.logotop {
+/*.logotop {
 	width: 10vw;
 	position: absolute;
 	top: 10px;
@@ -14,7 +14,7 @@
 }
 
 .circuloDestaquePosicao {
-	background-image: url("../img/circulo_destaque.png");
+	background-image: url('../img/circulo_destaque.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 520px;
@@ -22,31 +22,6 @@
 	position: absolute;
 	top: 20%;
 	left: 48%;
-}
-.tes_destaque {
-	width: 27.5vw;
-	height: 25vh;
-	position: absolute;
-	margin: auto;
-	top: 50vh;
-	left: 5vw;
-	text-transform: uppercase;
-	z-index: 1;
-	color: #fff;
-}
-
-.tes_destaque h1 {
-	font-size: 25px;
-	font-family: "Raleway", sans-serif;
-	font-weight: 800;
-	line-height: 1.1em;
-}
-
-.tes_destaque h2 {
-	font-size: 48px;
-	font-family: "Raleway", sans-serif;
-	font-weight: 100;
-	line-height: 0.9em;
 }
 
 .RedesDestaques {
@@ -67,7 +42,7 @@
 	fill: #000;
 }
 
-.iconeredesdes {
+/*.iconeredesdes {
 	width: 2vw;
 	height: 2vw;
 	padding: 1vw;
@@ -79,12 +54,13 @@
 .iconeredesdes img {
 	width: 80px;
 	align-items: center;
-}
+}*/
+/*
 .destaque {
 	width: 100%;
 	margin: auto;
 	height: 100vh;
-	background-image: url("../img/destaque01.jpg");
+	background-image: url('../img/destaque01.jpg');
 	background-color: #ffffff;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -93,11 +69,11 @@
 }
 
 /** MENU **/
-.menu {
+/*.menu {
 	position: absolute;
 	text-transform: uppercase;
 	padding-top: 20px;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	right: 5%;
 	height: 100px;
@@ -111,14 +87,14 @@
 .texmenu li a {
 	padding: 14px;
 	color: #fff;
-}
+}*/
 
 /*------ PORTIFOLIO ----------------------*/
 
-.portifolio {
+/*.portifolio {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-	grid-auto-rows: 220px;
+	grid-auto-rows: 30vh;
 	grid-gap: 0px;
 	background-color: #000;
 	color: #fff;
@@ -131,7 +107,7 @@
 .gg-element img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
-	filter: rgb(0, 0, 0); /* IE */
+	filter: rgb(0, 0, 0);
 	opacity: 0, 1;
 	object-fit: cover;
 	cursor: pointer;
@@ -150,7 +126,7 @@
 }
 
 .imagem01 {
-	background-image: url("../img/jobs/img_tit.jpg");
+	background-image: url('../img/jobs/img_tit.jpg');
 	background-repeat: no-repeat;
 	background-size: 120%;
 	background-position: center;
@@ -173,7 +149,7 @@
 .bordaport h1 {
 	text-transform: uppercase;
 	color: #fff800;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	font-size: 45px;
 }
@@ -181,10 +157,10 @@
 .bordaport h2 {
 	text-transform: uppercase;
 	color: #fff;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
-}
+}*/
 
 /*--- FIM PROTIFOLIO ------*/
 
@@ -204,7 +180,7 @@
 	color: #fff;
 	font-size: 20px;
 	text-align: center;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	text-transform: uppercase;
 }
@@ -213,7 +189,7 @@
 	height: 150px;
 	/* max-width: 1500px; */
 	float: left;
-	background-image: url("../img/barra_es.jpg");
+	background-image: url('../img/barra_es.jpg');
 	background-repeat: no-repeat;
 	background-size: 190px;
 }
@@ -229,7 +205,7 @@
 	height: 150px;
 	/* max-width: 1500px; */
 	display: flex;
-	background-image: url("../img/barra_di.jpg");
+	background-image: url('../img/barra_di.jpg');
 	background-repeat: no-repeat;
 	background-size: 190px;
 	background-position: right;
@@ -242,7 +218,7 @@
 	height: 600px;
 	position: relative;
 	overflow: hidden;
-	background-image: url("../img/fundo_app.jpg");
+	background-image: url('../img/fundo_app.jpg');
 	background-color: #ffffff;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -276,7 +252,7 @@
 	width: 100%;
 	color: #fff;
 	font-size: 20px;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	text-transform: uppercase;
 	padding-left: 40px;
@@ -286,7 +262,7 @@
 	width: 100%;
 	color: #faf203;
 	font-size: 40px;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	text-transform: uppercase;
 	padding-left: 40px;
@@ -310,13 +286,13 @@
 	opacity: 0, 5;
 	font-size: 20px;
 	color: #faf203;
-	background-image: url("../img/preto50por.png");
+	background-image: url('../img/preto50por.png');
 }
 /*-------------------------------------------*/
 /*------ VANTAGENS ----------------------*/
 .boxVantagens {
 	width: 100%;
-	background-image: url("../img/bg_filete_vantagens.jpg");
+	background-image: url('../img/bg_filete_vantagens.jpg');
 	background-repeat: repeat-x;
 	padding-bottom: 80px;
 	padding-top: 80px;
@@ -329,7 +305,7 @@
 	font-size: 45px;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 }
 
@@ -352,12 +328,12 @@
 .flex h1 {
 	color: #000;
 	font-size: 30px;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 }
 
 .flex p {
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 }
 
@@ -391,7 +367,7 @@
 	font-size: 45px;
 	text-align: center;
 	padding-bottom: 70px;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	width: 100%;
 }
@@ -420,7 +396,7 @@
 	color: #000;
 	font-size: 20px;
 	text-align: center;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	text-transform: uppercase;
 }
@@ -433,7 +409,7 @@
 	width: 40%;
 	height: 150px;
 	float: left;
-	background-image: url("../img/barra_clientes.jpg");
+	background-image: url('../img/barra_clientes.jpg');
 	background-size: 190px;
 	background-position: right;
 	margin-top: 20px;
@@ -451,7 +427,7 @@
 	position: relative;
 	overflow: auto;
 	width: 100%;
-	background-image: url("../img/bg_filete_vantagens.jpg");
+	background-image: url('../img/bg_filete_vantagens.jpg');
 	background-repeat: repeat-x;
 	padding-bottom: 90px;
 	padding-top: 50px;
@@ -463,7 +439,7 @@
 	display: flex;
 	width: 880px;
 	margin: auto;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	flex-wrap: wrap;
 	font-size: 15px;
@@ -491,7 +467,7 @@
 	font-size: 19px;
 	margin-left: 5px;
 	margin-top: 5px;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 }
 
@@ -500,7 +476,7 @@
 }
 
 .txtHistoria h1 {
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	width: 100%;
 	font-size: 22px;
@@ -511,7 +487,7 @@
 }
 
 .txtHistoria h2 {
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	font-size: 70px;
 	width: 100%;
@@ -521,7 +497,7 @@
 }
 
 .txtHistoria h3 {
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 	width: 100%;
@@ -537,7 +513,7 @@
 	height: 500px;
 	background-color: #000000;
 	float: left;
-	background-image: url("../img/img_contato.jpg");
+	background-image: url('../img/img_contato.jpg');
 	background-repeat: no-repeat;
 	background-size: 1500px;
 	background-position: right 0px;
@@ -572,7 +548,7 @@
 	letter-spacing: 0.2px;
 	padding-top: 80px;
 	line-height: 0.9em;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 10;
 }
 
@@ -582,7 +558,7 @@
 	letter-spacing: 0.2px;
 	margin-top: -20px;
 	line-height: 0.9em;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 }
 
@@ -601,7 +577,7 @@
 	padding-top: 22px;
 	padding-bottom: 5px;
 	font-size: 20px;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 }
 
@@ -637,7 +613,7 @@
 .powerby p {
 	color: white;
 	text-transform: uppercase;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: 10px;
 	float: left;
@@ -645,7 +621,7 @@
 }
 
 .end {
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 17px;
 	letter-spacing: 0.8px;
